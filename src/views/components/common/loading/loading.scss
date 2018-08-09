@@ -1,0 +1,9 @@
+@import 'views/styles/shared';
+
+.load-bar {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 6px;
+  background-color: $blue;
+}

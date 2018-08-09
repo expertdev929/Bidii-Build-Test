@@ -1,0 +1,29 @@
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+$extra-large: 1440px;
+
+$topbar-bgcolor: #607D8B;
+$blue: #008cff;
+
+.container {
+  @media (min-width: $small) {
+    max-width: $small;
+  }
+
+  @media (min-width: $medium) {
+    max-width: $medium;
+  }
+
+  @media (min-width: $large) {
+    max-width: $large;
+  }
+
+  @media (min-width: $extra-large) {
+    max-width: $extra-large;
+  }
+
+  .row {
+    margin: 0px;
+  }
+}

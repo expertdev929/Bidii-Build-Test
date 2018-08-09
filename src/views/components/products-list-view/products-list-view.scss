@@ -1,0 +1,68 @@
+@import 'views/styles/shared';
+
+table.table-products {
+  thead {
+    background-color: #F7F7F7;
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 0px;
+    th {
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    .dropdown {
+      .btn.btn-cog {
+        background-color: #F7F7F7;
+        color: #333;
+      }
+      #mark-as {
+        direction: ltr;
+        font-size: 12px;
+        line-height: 14px;
+        color: #828282;
+        padding: 8px 16px;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+      .dropdown-menu.show {
+        direction: ltr;
+        a.dropdown-item {
+          font-size: 12px;
+          line-height: 14px;
+          color: #828282;
+          padding: 8px 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  tbody {
+    font-size: 13px;
+    line-height: 15px;
+    color: #4F4F4F;
+    padding: 13px 0px 19px 0px;
+
+    th {
+      vertical-align: middle;
+    }
+    
+    td {
+      vertical-align: middle;
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+      }
+  
+      .btn-active {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        border-radius: 60px;
+        padding: 1px 10px;
+      }
+    }
+  }
+}

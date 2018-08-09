@@ -1,0 +1,65 @@
+@import "views/styles/shared";
+
+.navigation {
+  .topbar {
+    display: flex;
+    align-items: center;
+    background-color: #607D8B;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+    .view-group {
+      text-align: right;
+    }
+    a {
+      color: white;
+      &.grid {
+        margin-right: 30px;
+      }
+      &.more {
+        margin: 0;
+      }
+    }
+  }
+  .links {
+    font-size: 12px;
+    line-height: 14px;
+    .collapse-menu {
+      text-align: left;
+      padding-left: 15px;
+      .fa-bars {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      @media(min-width: $medium) {
+        display: none;
+      }
+    }
+    .menu {
+      width: 100%;
+      text-align: center;
+      a {
+        margin: 0px 15px;
+        color: #4F4F4F;
+      }
+      @media(max-width: $medium) {
+        display: none;
+      }
+    }
+    .navbar {
+      width: 100%;
+      padding: 0;
+      &.navbar-light .navbar-nav .nav-link {
+        margin: 0px 15px;
+        color: #4F4F4F;
+      }
+      @media(max-width: $medium) {
+        display: none;
+      }
+    }
+  }
+}

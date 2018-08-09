@@ -1,0 +1,21 @@
+@import 'views/styles/shared';
+
+.search-input {
+  direction: ltr;
+  width: 323px;
+  height: 32px;
+  margin-right: 15px;
+  .input-group {
+    height: 100%;
+    .input-group-prepend {
+      .input-group-text {
+        background-color: white;
+        border-right: none;
+      }
+    }
+    .form-control {
+      height: 100%;
+      border-left: none;
+    }
+  }
+}
